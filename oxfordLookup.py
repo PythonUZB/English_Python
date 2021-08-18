@@ -1,8 +1,8 @@
 import requests
 
-app_id = '9b5c6e2b'
-app_key = '645225db849e26b7c847f95113b4774c'
-language = 'en-gb'
+app_id = app_id
+app_key = app_key
+language = language
 
 def getDefinitions(word_id):
 	url = "https://od-api.oxforddictionaries.com:443/api/v2/entries/"+language+"/"+word_id.lower()
